@@ -1,6 +1,12 @@
-// input
-var username = prompt("Give me username")
+// variable btn
+var btnTranslate = document.querySelector('#btn-translate');
 
-// output
-alert("this is a scam! But Welcome "+username);
+// variable txtInput
+var txtInput = document.querySelector("#txt-input");
+
+// button to translate gives console output clicked
+btnTranslate.addEventListener("click",function clickEventHandler(){
+    console.log("clicked")
+    console.log("input: ",txtInput.value);
+})
 
