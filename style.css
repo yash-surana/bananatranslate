@@ -14,7 +14,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .navigation{
-    background-color:var(--primary-color);
+    /* background-color:var(--primary-color); */
     padding: 1rem;
     padding-left:2rem;
     padding-right: 2rem;
@@ -27,6 +27,7 @@ body{
     font-weight: bold;
     font-size: 2.5rem;
     /* display: inline; */
+    color: #ff5e00;
 }
 
 .navigation .nav-pills{
@@ -38,6 +39,9 @@ body{
     font-weight: bold;
     text-decoration:none;
     color: black;
+    /* padding-bottom: 10000cm; */
+    text-decoration: underline #ff5e00;;
+    text-decoration-thickness: 5px ;
 
 }
 
@@ -120,12 +124,10 @@ body{
 /* Links */
 
 .link{
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     text-decoration: none;
-    /* border-radius: 0.6rem; */
-    /* margin: 1.5rem 1rem 0.8rem 0rem; */
-    /* padding:0.5rem 2rem; */
-    color: black;
+    color: #ff5e00;
+    /* color: black; */
     
 }
 .primary-link{
